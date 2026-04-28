@@ -12,7 +12,6 @@ Ao clicar no botão, o usuário "quebra" o biscoito e recebe uma frase aleatóri
 * Exibição de frase aleatória
 * Troca de imagem (fechado → aberto)
 * Botão para resetar o estado
-
 ---
 
 ## 🚀 Tecnologias utilizadas
