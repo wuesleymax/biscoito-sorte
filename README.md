@@ -24,31 +24,7 @@ Ao clicar no botão, o usuário "quebra" o biscoito e recebe uma frase aleatóri
 
 ---
 
-## 📂 Estrutura do projeto
 
-```bash
-📁 BISCOITO-SORTE
- ┣ 📁 .expo
- ┣ 📁 assets
- ┣ 📁 node_modules (não incluída no GitHub)
- ┣ 📁 src
- ┃ ┣ 📁 components
- ┃ ┃ ┗ 📄 Mensagem.tsx
- ┃ ┣ 📁 screens
- ┃ ┃ ┗ 📄 BiscoitoSorte.tsx
- ┣ 📁 styles
- ┃ ┗ 📄 style.ts
- ┣ 📄 .gitignore
- ┣ 📄 App.js
- ┣ 📄 App.tsx
- ┣ 📄 index.js
- ┣ 📄 app.json
- ┣ 📄 package.json
- ┣ 📄 package-lock.json
- ┗ 📄 tsconfig.json
-```
-
----
 
 ## ⚙️ Pré-requisitos
 
@@ -71,7 +47,7 @@ npm install -g expo-cli
 Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/biscoito-sorte.git
+git clone https://github.com/wuesleymax/biscoito-sorte.git
 ```
 
 Acesse a pasta do projeto:
@@ -96,10 +72,11 @@ Inicie o servidor do Expo:
 npx expo start
 ```
 
-Depois disso, você pode:
+Para rodar seu Expo na web:
 
-* Abrir no celular usando o app **Expo Go**
-* Rodar em emulador Android/iOS
+```bash
+npx expo install react-dom react-native-web @expo/webpack-config
+```
 
 ---
 
@@ -113,10 +90,3 @@ Depois disso, você pode:
 
 ---
 
-##  Observações
-
-* A pasta `node_modules` não deve ser enviada para o GitHub
-* As imagens devem estar dentro da pasta `assets`
-* Certifique-se de manter os caminhos corretos dos arquivos
-
----
